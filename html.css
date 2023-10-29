@@ -5,6 +5,7 @@
 
 header {
     min-height: 200px;
+    text-align: center;
 }
 
 body {
@@ -19,25 +20,42 @@ article {
     margin: 0 auto;
 }
 
-article h1 {
+article > h1 {
     text-align: center;
-    padding: 15px 0;
-    line-height: 0;
+    padding: 20px 0;
 }
 
-article table {
-    padding-left: 15px;
-    padding-top: 15px;
+table {
+    margin: 0 auto;
+}
+
+table .spacing {
+    height: 2em;
 }
 
 article table td {
     padding: 0 15px;
 }
 
-.comment {
-    text-align: right;
+article table th {
+    padding-right: 5px;
+}
+
+article table section {
+    padding-top: 150px;
 }
 
 #h1 {
     font-size: 2em;
+}
+
+
+
+
+
+
+
+
+article table tr > * {
+    border: 2px solid red;
 }
