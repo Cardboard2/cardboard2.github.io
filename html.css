@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-height: 200px;
+    text-align: center;
+}
+
+body {
+    background-color: #EBFAFF;
+    padding: 15px;
+}
+
+article {
+    background-color: rgb(182, 227, 241);
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+article > h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table .spacing {
+    height: 2em;
+}
+
+article table td {
+    padding: 0 15px;
+}
+
+article table th {
+    padding-right: 5px;
+}
+
+article table section {
+    padding-top: 150px;
+}
+
+#h1 {
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+article table tr > * {
+    border: 2px solid red;
+}
