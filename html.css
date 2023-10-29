@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-height: 200px;
+}
+
+body {
+    background-color: #EBFAFF;
+    padding: 15px;
+}
+
+article {
+    background-color: rgb(182, 227, 241);
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+article h1 {
+    text-align: center;
+    padding: 15px 0;
+    line-height: 0;
+}
+
+article table {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+article table td {
+    padding: 0 15px;
+}
+
+.comment {
+    text-align: right;
+}
+
+#h1 {
+    font-size: 2em;
+}
