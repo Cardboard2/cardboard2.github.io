@@ -33,25 +33,30 @@ table .spacing {
     height: 2em;
 }
 
-article table td {
+article table tr td {
     padding: 0 15px;
+    width: 350px;
 }
 
-article table th {
-    padding-right: 5px;
+article table tr th {
+    padding: 0 10px;
 }
 
-article table section {
-    padding-top: 150px;
+article table {
+    padding-top: 15px;
 }
 
 #h1 {
     font-size: 2em;
 }
 
+.comment {
+    width: auto;
+}
 
-
-
+a {
+    color: rgb(36, 36, 36);
+}
 
 
 
