@@ -16,12 +16,24 @@ header {
     width: 100%;
 }
 
+body {
+    margin: 0 25%;
+}
+
 nav {
     position: fixed;
+    background-color: #464646;
+    height: 10%;
+    width: 100%;
+    left: 0;
+}
+
+nav div {
+    position: absolute;
     background-color: bisque;
-    top: 100px;
+    bottom: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
 nav li {
@@ -33,30 +45,30 @@ nav li {
 
 main {
     height: 4000px;
-    max-width: 500px;
+    max-width: 75%;
     margin: 0 auto;
     border: 15px groove red;
-    padding: 10px;
+    padding: 1.2%;
     text-align: justify;
 }
 
 footer {
-    margin: 20px 0;
+    margin: 2% 0;
     text-align: center;
 }
 
 .synopsis {
     position: sticky;
-    top: 300px;
-    left: 100px;
+    top: 25%;
     background-color: #FFFFFF;
-    padding: 10px;
-    
-    max-width: 200px;
+    padding: 1.2%;
+    max-width: 26%;
+
+    transform: translate(-110%)
 }
 
 #portrait {
-    height: 200px;
+    width: 100%;
 }
 
 #name {
