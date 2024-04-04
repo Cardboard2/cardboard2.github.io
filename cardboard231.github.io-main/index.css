@@ -1,0 +1,99 @@
+* {
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #555555;
+}
+
+header {
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+#wrapper {
+    margin: 0 20%;
+    padding-top: 10vh;
+}
+
+nav {
+    position: fixed;
+    background-color: #464646;
+    height: 8vh;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+nav div {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: max-content;
+    max-width: 80%;
+    height: 70%;
+    
+    display: flex;
+    align-items: center;
+}
+
+nav div ul {
+    height: 100%;
+}
+
+nav div li {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    color: black;
+}
+
+nav li#current {
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color: #3b3b3b;
+}
+
+main {
+    height: max-content;
+    max-width: 75%;
+    margin: 0 auto;
+    border: 15px groove red;
+    padding: 1.2%;
+    padding-bottom: 38px;
+    text-align: justify;
+}
+
+footer {
+    margin: 2% 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+aside.synopsis {
+    position: fixed;
+    top: 25%;
+    left: 7%;
+    width: 12%;
+    background-color: #FFFFFF;
+    padding: 1%;
+}
+
+#portrait {
+    width: 100%;
+}
+
+#name {
+    text-transform: uppercase;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
